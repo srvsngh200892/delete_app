@@ -1,0 +1,67 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/sauravsingh/Documents/delete_app/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/sauravsingh/Documents/delete_app/lib/soft_delete.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        2,
+        null,
+        null,
+        null,
+        1,
+        4,
+        null,
+        null
+      ],
+      "/Users/sauravsingh/Documents/delete_app/app/models/task.rb": [
+        1,
+        1,
+        1,
+        13,
+        null
+      ],
+      "/Users/sauravsingh/Documents/delete_app/app/models/document.rb": [
+        1,
+        1,
+        1,
+        18,
+        null
+      ],
+      "/Users/sauravsingh/Documents/delete_app/lib/child_soft_delete.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/sauravsingh/Documents/delete_app/app/controllers/application_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1493397288
+  }
+}

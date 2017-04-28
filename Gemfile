@@ -36,6 +36,22 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'pry'
+  gem 'rspec-rails', '~> 3.0'
+  gem "factory_girl_rails", "~> 4.0"
+  gem 'quiet_assets'
+  gem 'pry'
+  gem "better_errors"
+  gem 'binding_of_caller'
+  gem 'database_cleaner'
+  # gem 'rack-mini-profiler'
+  gem 'simplecov', :require => false
+  gem 'rspec_junit_formatter', '0.2.2'
+end
+
+group :test do
+  gem 'webmock'
+  gem 'vcr'
+  gem 'shoulda-matchers', '~> 3.1'
 end
 
 group :development do
