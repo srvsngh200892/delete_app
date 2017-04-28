@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: umi_db
+  username:
+  password:
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: umi_db_test
+  username:
+  password:
+  host: localhost
