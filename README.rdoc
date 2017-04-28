@@ -1,28 +1,16 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
 Things you may want to cover:
 
-* Ruby version
+* check file lib/soft_delete && lib/child_soft_delete
 
-* System dependencies
+* to soft delete do Task.last.soft_delete it will delete task record with associated documets model softly by setting up deleted falg to 1 and deleted_at Time.now
 
-* Configuration
+* to soft delete do Task.last.hard_delete it will delete task record with associated documets model permanently
 
-* Database creation
+* For Soft Delete add following field to model 
+   * 1) deleted_at :datetime 
+   * 2) deleted :integer
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* spec added to run spec
+   * rpsec spec/lib
